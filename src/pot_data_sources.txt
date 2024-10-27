@@ -1,0 +1,13 @@
+https://www.eia.gov/consumption/residential/
+
+https://international.lbl.gov/appliance-efficiency
+
+https://www.cpuc.ca.gov/industries-and-topics/electrical-energy/demand-side-management/energy-efficiency/database-of-energy-efficiency-resources-updates
+
+https://www.epa.gov/climateleadership/ghg-emission-factors-hub
+
+https://www.census.gov/programs-surveys/ahs.html
+
+https://data.openei.org/search?q=Residential%20Energy%20Consumption%20Survey
+
+https://tpl.nrel.gov/

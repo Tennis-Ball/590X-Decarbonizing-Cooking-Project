@@ -1,0 +1,55 @@
+Energy Source Distribution for Cooking Appliances
+Graph Type: Pie Chart or Bar Graph
+Description: Visualize the proportion of U.S. households using different energy sources (natural gas, electricity, propane, etc.) for cooking.
+Data Needed: Number of households using each type of cooking appliance (from EIA RECS or AHS).
+Analysis: Calculate percentages of total households for each energy source.
+
+
+Trends in Cooking Appliance Adoption Over Time
+Graph Type: Line Graph
+Description: Illustrate changes in the adoption rates of electric vs. gas cooking appliances over a period.
+Data Needed: Historical data on appliance sales or household usage (from industry reports or EIA historical data).
+Analysis: Identify trends and growth rates in appliance adoption.
+
+
+Energy Consumption Comparison Between Appliance Types
+Graph Type: Bar Graph
+Description: Compare average annual energy consumption of different cooking appliances (e.g., gas stove vs. electric coil vs. induction).
+Data Needed: Energy usage data per appliance type (from LBNL or manufacturer specifications).
+Analysis: Calculate and compare energy consumption and efficiency levels.
+
+
+Potential Emission Reductions from Electrification
+Graph Type: Stacked Bar Graph or Area Chart
+Description: Project greenhouse gas emission reductions achievable by switching from gas to electric cooking.
+Data Needed: Emission factors for natural gas and electricity, number of households that could transition (from EPA and EIA data).
+Analysis: Estimate total emissions for current vs. electrified scenarios.
+
+
+Cost Analysis of Cooking Appliances
+Graph Type: Line Graph or Bar Graph
+Description: Compare the lifecycle costs (including purchase, maintenance, and energy costs) of different cooking appliances.
+Data Needed: Appliance costs, energy prices, efficiency levels (from CEC and market data).
+Analysis: Evaluate economic feasibility and payback periods.
+
+
+Time-of-Use Cooking Energy Demand
+Graph Type: Heat Map or Line Graph
+Description: Show cooking energy demand patterns throughout the day.
+Data Needed: Hourly or time-of-use energy consumption data (from smart meter data or utility reports).
+Analysis: Identify peak cooking times and potential for load shifting.
+
+
+Impact of Renewable Energy Integration on Cooking Emissions
+Graph Type: Scenario Comparison Chart
+Description: Model how increasing renewable energy in the grid mix reduces emissions from electric cooking.
+Data Needed: Grid emission factors at different renewable penetration levels (from NREL data).
+Analysis: Compare emissions under current grid mix vs. future scenarios with higher renewables.
+
+
+Energy Savings from Smart Cooking Practices
+Graph Type: Before-and-After Comparison
+Description: Illustrate energy savings achieved through behavioral changes or smart appliance usage.
+Data Needed: Data from experiments or case studies implementing energy-saving practices.
+Analysis: Quantify the impact of interventions on energy consumption.
+
