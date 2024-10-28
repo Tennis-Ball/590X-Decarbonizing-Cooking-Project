@@ -1,0 +1,362 @@
+{
+    "Table B13.  Selected principal building activity: part 2, number of buildings, 2012": {},
+    "nan": {},
+    "All buildings": "380",
+    "Building floorspace (square feet)": {
+        "1,001 to 10,000 ": "356",
+        "10,001 to 100,000": "24",
+        "Over 100,000 ": "N"
+    },
+    "Year constructed": {
+        "Before 1946": "70",
+        "1946 to 1979": "125",
+        "1980 to 1999": "119",
+        "2000 to 2012": "65"
+    },
+    "Census region": {
+        "Northeast": "62",
+        "Midwest": "77",
+        "South": "160",
+        "West": "80"
+    },
+    "Climate region1": {
+        "Very cold/Cold": "128",
+        "Mixed-humid": "141",
+        "Mixed-dry/Hot-dry": "51",
+        "Hot-humid": "49",
+        "Marine": "Q"
+    },
+    "Number of floors": {
+        "One": "284",
+        "Two": "60",
+        "Three": "29",
+        "Four to nine": "Q",
+        "Ten or more": "N"
+    },
+    "Elevators and escalators \n(more than one may apply)": {
+        "Any elevators": "Q"
+    },
+    "Number of elevators": {
+        "One": "Q",
+        "Two to five": "Q",
+        "Six or more": "N",
+        "Any escalators": "N"
+    },
+    "Number of workers (main shift)": {
+        "Fewer than 10": "255",
+        "10 to 99": "123",
+        "100 or more": "Q"
+    },
+    "Weekly operating hours": {
+        "Fewer than 49": "58",
+        "49 to 84": "166",
+        "85 to 167": "131",
+        "Open continuously": "24"
+    },
+    "Ownership and occupancy": {
+        "Nongovernment owned": "364",
+        "Owner occupied": "202",
+        "Leased to tenant(s)": "157",
+        "Owner occupied and leased": "Q",
+        "Unoccupied": "N",
+        "Government owned": "Q",
+        "Federal": "N",
+        "State": "Q",
+        "Local": "Q"
+    },
+    "Party responsible for operation\nand maintenance of energy\nsystems": {
+        "Building owner": "292",
+        "Business owner or tenant": "75",
+        "Property management": "Q",
+        "Other": "Q"
+    },
+    "Provider of direct input on energy-\nrelated equipment purchases": {
+        "Building owner": "302",
+        "Business owner or tenant": "59",
+        "Property management": "Q",
+        "Other": "Q"
+    },
+    "Number of establishments": {
+        "One": "346",
+        "2 to 5": "33",
+        "6 to 10": "Q",
+        "11 to 20": "N",
+        "More than 20": "N",
+        "Currently unoccupied": "N"
+    },
+    "Campus or complex activity": {
+        "Not part of a campus or complex": "315",
+        "Primary or secondary school": "Q",
+        "College or university": "Q",
+        "Office complex": "Q",
+        "Retail complex": "28",
+        "Storage complex": "Q",
+        "Religious campus or complex": "Q",
+        "Health care complex": "Q",
+        "Lodging or resort complex": "Q",
+        "Transportation complex": "N",
+        "Government complex": "N",
+        "Other": "Q"
+    },
+    "Predominant exterior wall material": {
+        "Brick, stone, or stucco": "202",
+        "Concrete (block or poured)": "72",
+        "Concrete panels": "Q",
+        "Siding or shingles": "76",
+        "Metal panels": "Q",
+        "Window glass": "Q",
+        "Other": "Q",
+        "No one major type": "N"
+    },
+    "Predominant roof material": {
+        "Metal surfacing": "71",
+        "Synthetic or rubber": "75",
+        "Built-up": "63",
+        "Slate or tile shingles": "36",
+        "Wooden materials (including\nshingles)": "Q",
+        "Asphalt, fiberglass, or \nother shingles": "110",
+        "Concrete": "Q",
+        "Other": "Q",
+        "No one major type": "Q"
+    },
+    "Roof characteristics": {},
+    "Roof tilt": {
+        "Flat": "171",
+        "Shallow pitch": "125",
+        "Steeper pitch": "84",
+        "Cool roof": "49"
+    },
+    "Renovations in buildings\nconstructed before 2008\n(more than one may apply)": {
+        "Any type of renovation": "155",
+        "Addition or annex": "33",
+        "Reduction in floorspace": "Q",
+        "Roof replacement": "64",
+        "Exterior wall replacement": "Q",
+        "Interior wall reconfiguration": "70",
+        "Window replacement": "48",
+        "HVAC equipment upgrade": "83",
+        "Lighting upgrade": "78",
+        "Electrical upgrade": "70",
+        "Plumbing system upgrade": "74",
+        "Insulation upgrade": "34",
+        "Fire, safety, or security upgrade": "62",
+        "Structural upgrade": "21",
+        "Other": "N",
+        "No renovations": "201",
+        "Buildings constructed 2008 or later": "Q"
+    },
+    "Energy sources\n(more than one may apply)": {
+        "Electricity": "380",
+        "Natural gas": "283",
+        "Fuel oil": "Q",
+        "District heat": "Q",
+        "District chilled water": "Q",
+        "Propane": "47",
+        "Other": "Q"
+    },
+    "Space-heating energy sources\n(more than one may apply)": {
+        "Electricity": "202",
+        "Natural gas": "207",
+        "Fuel oil": "Q",
+        "District heat": "Q",
+        "Propane": "25",
+        "Other": "Q"
+    },
+    "Primary space-heating \nenergy source": {
+        "Electricity": "146",
+        "Natural gas": "183",
+        "Fuel oil": "Q",
+        "District heat": "Q",
+        "Propane": "Q",
+        "Other": "Q"
+    },
+    "Cooling energy sources\n(more than one may apply)": {
+        "Electricity": "356",
+        "Natural gas": "N",
+        "District chilled water": "Q"
+    },
+    "Water-heating energy sources\n(more than one may apply)": {
+        "Electricity": "155",
+        "Natural gas": "216",
+        "Fuel oil": "Q",
+        "District heat": "Q",
+        "Propane": "27"
+    },
+    "Cooking energy sources\n(more than one may apply)": {
+        "Electricity": "183",
+        "Natural gas": "246",
+        "Propane": "40"
+    },
+    "Energy end uses\n(more than one may apply)": {
+        "Buildings with space heating": "359",
+        "Buildings with cooling": "358",
+        "Buildings with water heating": "379",
+        "Buildings with cooking": "353",
+        "Buildings with manufacturing": "Q",
+        "Buildings with electricity\ngeneration": "Q"
+    },
+    "Percent of floorspace heated": {
+        "Not heated": "Q",
+        "1 to 50": "37",
+        "51 to 99": "63",
+        "100": "260"
+    },
+    "Percent of floorspace cooled": {
+        "Not cooled": "Q",
+        "1 to 50": "41",
+        "51 to 99": "85",
+        "100": "233"
+    },
+    "Percent lit when open": {
+        "Zero": "N",
+        "1 to 50": "57",
+        "51 to 99": "104",
+        "100": "219",
+        "Building never open/electricity\nnot used": "N"
+    },
+    "Percent lit during off hours": {
+        "Zero": "136",
+        "1 to 50": "214",
+        "51 to 100": "26",
+        "Building always open with \nno \"off hours\"": "Q",
+        "Electricity not used": "N"
+    },
+    "Heating equipment \n(more than one may apply)": {
+        "Heat pumps": "32",
+        "Furnaces": "53",
+        "Individual space heaters": "52",
+        "District heat": "Q",
+        "Boilers": "23",
+        "Packaged heating units": "251",
+        "Other": "Q"
+    },
+    "Cooling equipment \n(more than one may apply)": {
+        "Residential-type central air\nconditioners": "110",
+        "Heat pumps": "37",
+        "Individual air conditioners": "48",
+        "District chilled water": "Q",
+        "Central chillers": "Q",
+        "Packaged air conditioning units": "188",
+        "Swamp coolers": "21",
+        "Other": "N"
+    },
+    "Main equipment replaced since \n1990 (more than one may apply)": {
+        "Heating": "156",
+        "Cooling": "172"
+    },
+    "Water-heating equipment": {
+        "Centralized system": "307",
+        "Distributed system": "33",
+        "Combination of centralized and\ndistributed system": "39"
+    },
+    "Lighting equipment types\n(more than one may apply)": {
+        "Incandescent": "174",
+        "Standard fluorescent": "352",
+        "Compact fluorescent": "237",
+        "High-intensity discharge (HID)": "17",
+        "Halogen": "91",
+        "LED": "42",
+        "Other": "Q"
+    },
+    "Refrigeration equipment\n(more than one may apply)": {
+        "Any refrigeration": "380",
+        "Walk-in units": "293",
+        "Cases or cabinets": "260",
+        "Large cold storage areas": "Q",
+        "Commercial ice makers": "259",
+        "Residential-type or compact units": "201",
+        "Vending machines": "42",
+        "No refrigeration": "N"
+    },
+    "Office equipment\n(more than one may apply)": {
+        "Desktop computers": "264",
+        "With flat screen monitors": "246",
+        "With multiple monitors": "42",
+        "Laptop computers": "142",
+        "Dedicated servers": "85",
+        "Laser printers": "108",
+        "Inkjet printers": "180",
+        "FAX machines": "182",
+        "Photocopiers": "49"
+    },
+    "Number of desktop computers": {
+        "nan": "116",
+        "1 to 4": "230",
+        "5 to 9": "31",
+        "10 to 19": "Q",
+        "20 to 49": "Q",
+        "50 to 99": "N",
+        "100 to 249": "N",
+        "250 or more": "N"
+    },
+    "Number of laptop computers": {
+        "nan": "238",
+        "1 to 4": "132",
+        "5 to 9": "Q",
+        "10 to 19": "Q",
+        "20 to 49": "N",
+        "50 to 99": "N",
+        "100 to 249": "N",
+        "250 or more": "N"
+    },
+    "Number of dedicated servers": {
+        "nan": "294",
+        "1 to 4": "82",
+        "5 to 9": "Q",
+        "10 to 19": "N",
+        "20 to 49": "N",
+        "50 or more": "N"
+    },
+    "Number of photocopiers": {
+        "nan": "331",
+        "One": "42",
+        "2 to 4": "Q",
+        "5 to 9": "N",
+        "10 or more": "N"
+    },
+    "Number of TVs or video displays": {
+        "nan": "111",
+        "One": "78",
+        "2 to 4": "114",
+        "5 to 9": "56",
+        "10 to 19": "16",
+        "20 to 49": "Q",
+        "50 to 99": "Q",
+        "100 or more": "N"
+    },
+    "Food preparation or serving areas \nin non-food service buildings\n(more than one may apply)": {
+        "Snack bar or concession stand": "N",
+        "Fast food or small restaurant": "N",
+        "Cafeteria or large restaurant": "N",
+        "Commercial kitchen/\nfood preparation area": "N",
+        "Small kitchen area": "N"
+    },
+    "Separate computer areas\n(more than one may apply)": {
+        "Data center or server farm": "Q",
+        "Computer-based training room": "Q",
+        "Student or public computer center": "Q"
+    },
+    "HVAC conservation features \n(more than one may apply)": {
+        "Economizer cycle": "51",
+        "Regular HVAC maintenance": "260",
+        "Building automation system (BAS)2": "38"
+    },
+    "Window and interior lighting \nfeatures (more than one may\napply)": {
+        "Multipaned windows": "232",
+        "Tinted window glass": "135",
+        "Reflective window glass": "33",
+        "External overhangs or awnings": "198",
+        "Skylights or atriums": "19",
+        "Light scheduling": "73",
+        "Occupancy sensors": "43",
+        "Multi-level lighting or dimming": "58",
+        "Daylight harvesting": "Q",
+        "Demand responsive lighting": "Q",
+        "Building automation system (BAS) for lighting2": "Q"
+    },
+    "Equipment usage reduced when \nbuilding not in full use \n(more than one may apply)": {
+        "Heating": "286",
+        "Cooling": "286",
+        "Lighting": "358"
+    }
+}
