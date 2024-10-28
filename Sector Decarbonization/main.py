@@ -37,7 +37,7 @@ def graph_type_1(file_path, title):
     data = pd.read_csv(file_path)
 
     plt.figure(figsize=(10, 6))
-    categories = ['2009', '2015', '2020']
+    categories = ['2003', '2012', '2018']
     num_categories = len(categories)
     x = np.arange(num_categories)
     bar_width = 0.25
@@ -60,11 +60,44 @@ def graph_type_1(file_path, title):
     plt.legend()
     plt.show()
 
+def graph_type_2(file_path, title):
+    data = pd.read_csv(file_path)
+
+    plt.figure(figsize=(10, 6))
+    categories = ['2009', '2015', '2020']
+    num_categories = len(categories)
+    x = np.arange(num_categories)
+    bar_width = 0.2  # Adjusted for 4 bars per group
+
+    # Extract data for each fuel type
+    electricity = data.loc[0:2, 'Electricity']
+    natural_gas = data.loc[0:2, 'Natural Gas']
+    propane = data.loc[0:2, 'Propane']
+    dual_fuel = data.loc[0:2, 'Dual Fuel']
+
+    # Plot the bars with adjusted positions for 4 bars per group
+    plt.bar(x - 1.5*bar_width, electricity, width=bar_width, label='Electricity', color='orange')
+    plt.bar(x - 0.5*bar_width, natural_gas, width=bar_width, label='Natural Gas', color='brown')
+    plt.bar(x + 0.5*bar_width, propane, width=bar_width, label='Propane', color='blue')
+    plt.bar(x + 1.5*bar_width, dual_fuel, width=bar_width, label='Dual Fuel', color='green')
+
+    # Add labels and title
+    plt.xlabel('Years', fontweight='bold')
+    plt.ylabel('Proportion', fontweight='bold')
+    plt.title(title)
+
+    # Add the category names to the x-axis
+    plt.xticks(x, categories)
+    plt.legend()
+    plt.show()
+
+
 def main():
     # extract_b13('b13_2018')
     # extract_b13('b13_2012')
-    graph_type_1('csvs/Sector Decarbonization Presentation Data - Residential.csv', 'Proportions of Energy Sources for Residential Household Cooking')
-    graph_type_1('csvs/Sector Decarbonization Presentation Data - Commercial.csv', 'Proportions of Energy Sources for Cooking in Commercial Food Service Buildings')
+    # graph_type_1('csvs/ResidentialV1', 'Proportions of Energy Sources for Residential Household Cooking')
+    graph_type_1('csvs/Commercial.csv', 'Proportions of Energy Sources for Commercial Cooking by Total Floorspace')
+    graph_type_2('csvs/ResidentialV2.csv', 'Most Used Stove-Top Fuels in Residential Cooking by Household')
     pass
 
 if __name__ == "__main__":
