@@ -35,35 +35,60 @@ gas_power_per_minute = 0.18 * 60  # Convert to watts (0.18 kWh per minute)
 induction_efficiency = 0.85  # Induction efficiency factor
 
 # Calculate energy usage for Gas and Induction stoves
-energy_usage_gas = {}
-energy_usage_induction = {}
+# energy_usage_gas = {}
+# energy_usage_induction = {}
 
-for item, (minutes, seconds, heat_fraction, power_rating) in cooking_data.items():
-    # Convert time to hours
-    time_hours = (minutes + seconds / 60) / 60
-    # Calculate effective power for gas and induction stoves
-    # Gas: based on average energy per minute
-    gas_energy = gas_power_per_minute * (minutes + seconds / 60) * heat_fraction  # in watt-hours
-    # Induction: use efficiency adjustment on electric stove power
-    induction_energy = (power_rating * heat_fraction * induction_efficiency) * time_hours  # in watt-hours
-    energy_usage_gas[item] = gas_energy
-    energy_usage_induction[item] = induction_energy
+# for item, (minutes, seconds, heat_fraction, power_rating) in cooking_data.items():
+#     # Convert time to hours
+#     time_hours = (minutes + seconds / 60) / 60
+#     # Calculate effective power for gas and induction stoves
+#     # Gas: based on average energy per minute
+#     gas_energy = gas_power_per_minute * (minutes + seconds / 60) * heat_fraction  # in watt-hours
+#     # Induction: use efficiency adjustment on electric stove power
+#     induction_energy = (power_rating * heat_fraction * induction_efficiency) * time_hours  # in watt-hours
+#     energy_usage_gas[item] = gas_energy
+#     energy_usage_induction[item] = induction_energy
 
 # Calculate total energy usage for Gas and Induction scenarios
-total_energy_gas = sum(energy_usage_gas.values())
-total_energy_induction = sum(energy_usage_induction.values())
+# total_energy_gas = sum(energy_usage_gas.values())
+# total_energy_induction = sum(energy_usage_induction.values())
 
-# Data for bar graph
-energy_totals = {
-    "Electric Stove": total_energy_usage,
-    "Gas Stove": total_energy_gas,
-    "Induction Stove": total_energy_induction
-}
+# # Data for bar graph
+# energy_totals = {
+#     "Electric Stove": total_energy_usage,
+#     "Gas Stove": total_energy_gas,
+#     "Induction Stove": total_energy_induction
+# }
 
 # Plotting
-plt.figure(figsize=(10, 6))
-plt.bar(energy_totals.keys(), energy_totals.values(), color=['blue', 'green', 'orange'])
-plt.xlabel("Cooking Method")
-plt.ylabel("Total Energy Usage (Wh)")
-plt.title("Comparison of Energy Usage by Cooking Method")
+# plt.figure(figsize=(10, 6))
+# plt.bar(energy_totals.keys(), energy_totals.values(), color=['blue', 'green', 'orange'])
+# plt.xlabel("Cooking Method")
+# plt.ylabel("Total Energy Usage (Wh)")
+# plt.title("Comparison of Energy Usage by Cooking Method")
+# plt.show()
+# Energy usage data in kWh for each cooking scenario
+# Original electric stove scenario (calculated previously)
+electric_stove_energy = total_energy_usage / 1000  # in kWh
+
+# Gas stove energy calculation
+# Total time for all foods in hours (sum of individual times from earlier calculation)
+# We assume gas stove usage is equivalent to 2.64 kWh per hour per burner
+# https://www.hunker.com/13408239/typical-btus-of-a-gas-stove/
+total_gas_stove_energy = 2.64 * (electric_stove_energy / 2.4)  # Scaling according to BTU vs Electric use
+
+# Induction stove energy calculation
+# Equivalent energy use assumed at 2.0 kWh per hour
+total_induction_stove_energy = 2.0 * (electric_stove_energy / 2.4)  # Scaling for similar heat output as electric
+
+# Data for plotting
+stove_types = ['Electric Stove', 'Gas Stove', 'Induction Stove']
+energy_usage_kwh = [electric_stove_energy, total_gas_stove_energy, total_induction_stove_energy]
+
+# Plotting the comparison
+plt.figure(figsize=(8, 6))
+plt.bar(stove_types, energy_usage_kwh, color=['blue', 'orange', 'green'])
+plt.title('Energy Usage Comparison for Different Stove Types')
+plt.xlabel('Stove Type')
+plt.ylabel('Total Energy Usage (kWh)')
 plt.show()
